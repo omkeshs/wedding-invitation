@@ -1,6 +1,6 @@
-# Wedding Landing Page - Shahirrah & Zamier (Work in Progress)
+# Wedding Landing Page - Omkesh & Isha 
 
-![Thumbnail](image/initials.png)
+![Thumbnail](image/initials-background2.png)
 
 
 # Section/Feature
@@ -16,7 +16,7 @@
 - Bulma CSS (https://bulma.io)
 
 # Info
-- Live version check at: https://weddinginvitationshazamier.netlify.app/
+- Live version check at: https://omkeshs.github.io/wedding-invitation
 
 # Fonts
 - Rouge Script (Google Font)
@@ -25,7 +25,5 @@
 
 
 # Credits
-
-- Floral vector created by BiZkettE1 - www.freepik.com (https://www.freepik.com/free-photos-vectors/background)
-- plant-background captured by Milad Fakurian - unsplash.com (https://unsplash.com/photos/dPTvB0GePMI)
-- Code adapted from daengdoang - github.com (https://github.com/daengdoang/daeng-sherly-menikah), Personal Site (https://dae.ng/)
+- Design and font by Team One&Only
+- Made by https://omkeshs.github.io/Portfolio
