@@ -3,7 +3,7 @@
 A beautifully crafted wedding invitation website designed to celebrate  
 **Omkesh & Isha’s special day** with elegance and simplicity.
 
-![Wedding Thumbnail](image/initials-background2.png)
+![Wedding Thumbnail](image/I&O.png)
 
 ---
 
