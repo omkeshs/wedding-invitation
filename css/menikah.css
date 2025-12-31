@@ -132,14 +132,15 @@ a.navbar-item:hover {
   text-align: center;
   position: relative;
   color: #fff;
-  opacity: 0.35;
 }
 
 .couple-bg::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.45); /* adjust darkness */
+  background: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
   z-index: 1;
 }
 
@@ -173,6 +174,12 @@ a.navbar-item:hover {
 @-ms-keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
+}
+
+@media (min-width: 1024px) {
+  .event-info {
+    text-shadow: 0 2px 10px rgba(0,0,0,0.6);
+  }
 }
 
 .hero-body {
@@ -885,3 +892,96 @@ body.preloader-site {
   text-align: center;
   padding: 10px;
 }
+
+.event-info {
+  text-align: center;
+  color: #ffffff;
+  margin-top: 1rem;
+  padding: 0 1rem; /* mobile padding */
+}
+
+.event-date {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+
+.event-venue {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.15rem;
+  margin-top: 0.4rem;
+}
+
+.event-location {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.05rem;
+  opacity: 0.9;
+  margin-top: 0.2rem;
+}
+
+/* 📱 Mobile (small screens) */
+@media (max-width: 480px) {
+  .event-date {
+    font-size: 1.1rem;
+  }
+  .event-venue {
+    font-size: 1rem;
+  }
+  .event-location {
+    font-size: 0.95rem;
+  }
+}
+
+/* 📱 Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+  .event-date {
+    font-size: 1.25rem;
+  }
+  .event-venue {
+    font-size: 1.1rem;
+  }
+}
+
+/* 💻 Desktop & Large Screens */
+@media (min-width: 1024px) {
+  .event-date {
+    font-size: 1.6rem;
+  }
+  .event-venue {
+    font-size: 1.25rem;
+  }
+  .event-location {
+    font-size: 1.15rem;
+  }
+}
+
+.sparkle-text {
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(
+    120deg,
+    #ffffff 0%,
+    #b08d57 20%,
+    #ffffff 40%,
+    #3a2f2f 60%,
+    #ffffff 80%
+  );
+  background-size: 300% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: sparkleShimmer 4s ease-in-out infinite;
+}
+
+@keyframes sparkleShimmer {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
