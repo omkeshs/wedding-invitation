@@ -195,6 +195,15 @@ a.navbar-item:hover {
   right: 0;
 }
 
+.photo {
+  font-family: 'Rouge Script', sans-serif;
+  font-weight: 700;
+  transform: rotate(-5deg);
+  font-size: 2rem;
+  padding-bottom: 5px;
+  color: rgba(117,73,30,1);
+}
+
 .front-section {
   position: relative;
   width: 100%;
