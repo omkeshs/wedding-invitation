@@ -195,15 +195,6 @@ a.navbar-item:hover {
   right: 0;
 }
 
-.photo {
-  font-family: 'Rouge Script', sans-serif;
-  font-weight: 700;
-  transform: rotate(-5deg);
-  font-size: 2rem;
-  padding-bottom: 5px;
-  color: rgba(117,73,30,1);
-}
-
 .front-section {
   position: relative;
   width: 100%;
@@ -214,6 +205,8 @@ a.navbar-item:hover {
   overflow: hidden;
 }
 
+
+
 .hero .title {
   font-family: 'Rouge Script', sans-serif;
   font-weight: 700;
@@ -221,6 +214,16 @@ a.navbar-item:hover {
   font-size: 5rem;
   padding-bottom: 5px;
   color: whitesmoke;
+}
+
+
+.photo {
+  font-family: 'Rouge Script', sans-serif;
+  font-weight: 700;
+  transform: rotate(-5deg);
+  font-size: 2rem;
+  padding-bottom: 5px;
+  color: rgba(117,73,30,1);
 }
 
 .hero .subtitle {
@@ -882,7 +885,7 @@ body.preloader-site {
   margin-top: 15px;
   text-align: left;
   color: white;
-}
+} 
 
 .section-light {
   background-image: url(../image/divider-flowers-leaves.png);
@@ -993,4 +996,3 @@ body.preloader-site {
     background-position: 0% 50%;
   }
 }
-
